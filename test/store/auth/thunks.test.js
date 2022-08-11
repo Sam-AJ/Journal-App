@@ -1,4 +1,4 @@
-import { loginWithEmailPassword, logoutFirebase, signInWithGoogle } from '../../../src/firebase';
+import { loginWithEmailPassword, logoutFirebase, signInWithGoogle } from '../../../src/firebase/providers';
 import { checkingCredentials, login, logout } from '../../../src/store/auth';
 import { checkingAuthentication, startGoogleSignIn, startLoginWithEmailPassword, startLogout } from '../../../src/store/auth/thunks';
 import { clearNotesLogout } from '../../../src/store/journal/journalSlice';
